@@ -1,4 +1,4 @@
-import {Tab} from "../components/Tab";
+import { Tab } from "../components";
 
 export default function Home() {
   return (
@@ -16,53 +16,54 @@ export default function Home() {
                       Canada
                   </Tab>
                   <Tab>
-                      America
-                  </Tab>
-                  <Tab>
                       Uganda
                   </Tab>
                   <Tab>
-                      Hakkari
+                      United Kingdom
                   </Tab>
                   <Tab>
-                      Urfa
+                      Dominican Republic
+                  </Tab>
+                  <Tab>
+                      Papua New Guinea
                   </Tab>
               </Tab.List>
 
               <Tab.Panels>
                   <Tab.Panel>
                       <div>
-                          <h1>Switzerland</h1>
+                          <h2>Switzerland</h2>
                       </div>
                   </Tab.Panel>
                   <Tab.Panel>
                       <div>
-                          <h1>Turkey</h1>
+                          <h2>Turkey</h2>
                       </div>
                   </Tab.Panel>
                   <Tab.Panel>
                       <div>
-                          <h1>Canada</h1>
+                          <h2>Canada</h2>
                       </div>
                   </Tab.Panel>
                   <Tab.Panel>
                       <div>
-                          <h1>America</h1>
+                          <h2>Uganda</h2>
                       </div>
                   </Tab.Panel>
                   <Tab.Panel>
                       <div>
-                          <h1>Uganda</h1>
+                          <h2>United Kingdom</h2>
+                      </div>
+                  </Tab.Panel>
+
+                  <Tab.Panel>
+                      <div>
+                          <h2>Dominican Republic</h2>
                       </div>
                   </Tab.Panel>
                   <Tab.Panel>
                       <div>
-                          <h1>Hakkari</h1>
-                      </div>
-                  </Tab.Panel>
-                  <Tab.Panel>
-                      <div>
-                          <h1>Urfa</h1>
+                          <h2>Papua New Guinea</h2>
                       </div>
                   </Tab.Panel>
               </Tab.Panels>
