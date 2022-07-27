@@ -27,6 +27,9 @@ export default function Home() {
                   <Tab>
                       Papua New Guinea
                   </Tab>
+                  <Tab>
+                      South Africa
+                  </Tab>
               </Tab.List>
 
               <Tab.Panels>
@@ -64,6 +67,11 @@ export default function Home() {
                   <Tab.Panel>
                       <div>
                           <h2>Papua New Guinea</h2>
+                      </div>
+                  </Tab.Panel>
+                  <Tab.Panel>
+                      <div>
+                          <h2>South Africa</h2>
                       </div>
                   </Tab.Panel>
               </Tab.Panels>
