@@ -20,8 +20,6 @@ export function Tab({ children,id }) {
                 setSelectedTab(selectedTab === 0 ? LastElement : selectedTab - 1);
                 break;
             case 'ArrowRight':
-                setSelectedTab(selectedTab === LastElement ? 0 : selectedTab + 1);
-                break;
             case 'Tab':
                 setSelectedTab(selectedTab === LastElement ? 0 : selectedTab + 1);
                 break;
@@ -72,9 +70,9 @@ Tab.List = function TabList({ children}) {
 Tab.Panels = function TabPanels({ children }) {
     const { selectedTab } = useContext(TabContext) || {};
 
-    return <section className="pt-4">{children[selectedTab]}</section>;
+    return <div className="pt-4" >{children[selectedTab]}</div>;
 };
 
 Tab.Panel = function TabPanel({ children }) {
-    return <div>{children}</div>;
+    return <div role="tabpanel" >{children}</div>;
 };
