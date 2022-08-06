@@ -1,19 +1,19 @@
-import { Tab } from "../components";
+import { Tab } from "../../components";
 
 export default function Home() {
   return (
       <main>
           <h1>Compound Components</h1>
-          <Tab.Group>
+          <Tab>
               <Tab.List>
-                  <Tab>Switzerland</Tab>
-                  <Tab>Turkey</Tab>
-                  <Tab>Canada</Tab>
-                  <Tab>Uganda</Tab>
-                  <Tab>United Kingdom</Tab>
-                  <Tab>Dominican Republic</Tab>
-                  <Tab>Papua New Guinea</Tab>
-                  <Tab>South Africa</Tab>
+                  <Tab.Item>Switzerland</Tab.Item>
+                  <Tab.Item>Turkey</Tab.Item>
+                  <Tab.Item>Canada</Tab.Item>
+                  <Tab.Item>Uganda</Tab.Item>
+                  <Tab.Item>United Kingdom</Tab.Item>
+                  <Tab.Item>Dominican Republic</Tab.Item>
+                  <Tab.Item>Papua New Guinea</Tab.Item>
+                  <Tab.Item>South Africa</Tab.Item>
               </Tab.List>
               <Tab.Panels>
                   <Tab.Panel>Switzerland</Tab.Panel>
@@ -25,7 +25,7 @@ export default function Home() {
                   <Tab.Panel>Papua New Guinea</Tab.Panel>
                   <Tab.Panel>South Africa</Tab.Panel>
               </Tab.Panels>
-          </Tab.Group>
+          </Tab>
       </main>
   )
 }
